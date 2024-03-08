@@ -23,7 +23,7 @@ public class ContaTerminal {
         System.out.println("Insira o saldo inicial a ser depositado: ");
         double saldoConta = sc.nextDouble();
 
-        System.out.println("\n\n\n");
+        System.out.println("\n");
         System.out.printf("Olá, %S, obrigado por criar uma conta em nosso banco. Sua agência é %s, conta %s. Seu saldo atual é de R$ %.2f.",
         nomeCliente, codigoAgencia, numeroConta, saldoConta);
         
